@@ -1,14 +1,15 @@
+import "lodash";
 import "./style.css";
 
-function component() {
-  const element = document.createElement("div");
+// function component() {
+//   const element = document.createElement("div");
 
-  /*element.innerHTML = _.join(["Hello", "webpack"], " ");*/
+//   /*element.innerHTML = _.join(["Hello", "webpack"], " ");*/
 
-  return element;
-}
-/*OVAN INKLISTRAD SKIT ENL INSTRUKTION.. :D*/
-document.body.appendChild(component());
+//   return element;
+// }
+// /*OVAN INKLISTRAD SKIT ENL INSTRUKTION.. :D*/
+// document.body.appendChild(component());
 
 window.onload = function() {
   class game {
